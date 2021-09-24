@@ -4,7 +4,7 @@ const path = require('path');
 var cookieParser = require('cookie-parser');
 const methodOverride = require('method-override');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 // npm i cookie-parser express-handlebars jsonwebtoken mongoose method-override
 // npm uninstall cookie-parser express-handlebars jsonwebtoken mongoose method-override
 
