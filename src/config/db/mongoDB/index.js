@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 // mongodb+srv://vinhtieng:<password>@cluster0.wru1l.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-//let url = 'mongodb+srv://vinhtieng:vinhtieng@cluster0.wru1l.mongodb.net/manage-motels?retryWrites=true&w=majority'
+let url = 'mongodb+srv://vinhtieng:vinhtieng@cluster0.wru1l.mongodb.net/manage-motels?retryWrites=true&w=majority'
 //let url = 'mongodb+srv://dbUser:101060@clustersocialnetwork.r5gqi.mongodb.net/social?retryWrites=true&w=majority'
 
-let url = 'mongodb://localhost:27017/manage-motels'
+//let url = 'mongodb://localhost:27017/manage-motels'
 async function connect(){
     try{
         await mongoose.connect(url,{
